@@ -1,0 +1,22 @@
+{
+    "name": "thinqc/schema",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Showsay You",
+            "email": "akizuki.c10.l65@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThinQC\\Schema\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
