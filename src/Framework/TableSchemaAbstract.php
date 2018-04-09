@@ -12,7 +12,6 @@ use ThinQC\Schema\Framework\NewKey\ForeignKeyInterface;
 abstract class TableSchemaAbstract
     implements TypeSelectInterface
 {
-    abstract public function create(): void;
     abstract public function primaryKey(string $columnName): PrimaryKeyAbstract;
     abstract public function compositePrimaryKey(string ...$columnNames): self;
     abstract public function uniqueKey(string ...$columnNames): self;
