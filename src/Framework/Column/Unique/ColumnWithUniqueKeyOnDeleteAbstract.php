@@ -7,7 +7,6 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 
 /**
  * @property-read TableSchemaAbstract $cascadeOnUpdate
- * @property-read TableSchemaAbstract $setNullOnUpdate
  * @property-read TableSchemaAbstract $noActionOnUpdate
  * @property-read TableSchemaAbstract $restrictOnUpdate
  *
