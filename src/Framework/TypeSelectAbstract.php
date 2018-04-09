@@ -7,7 +7,7 @@ use ThinQC\Schema\Framework\Column\ColumnAbstract;
 
 /**
  * @property-read TableSchemaAbstract $autoTimestamp
- * 
+ *
  * @internal
  */
 abstract class TypeSelectAbstract
