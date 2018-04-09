@@ -2,6 +2,7 @@
 
 namespace ThinQC\Schema\Framework;
 
+use ThinQC\Schema\Framework\NewKey\CompositeForeignKeyInterface;
 
 
 /**
@@ -12,4 +13,5 @@ abstract class TableSchemaAbstract
 {
     abstract public function compositePrimaryKey(string ...$columnNames): self;
     abstract public function compositeUniqueKey(string ...$columnNames): self;
+    abstract public function compositeForeignKey(string $tableName): CompositeForeignKeyInterface;
 }
