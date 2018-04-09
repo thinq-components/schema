@@ -18,5 +18,4 @@ use ThinQC\Schema\Framework\Column\Foreign\ColumnWithForeignKeyAbstract;
 abstract class ColumnForeignKeyInitial
     extends ColumnWithForeignKeyAbstract
 {
-
 }

@@ -16,5 +16,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class NullableColumnWithUniqueKeyOnUpdateAbstract
     extends TableSchemaAbstract
 {
-
 }

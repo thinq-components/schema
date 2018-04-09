@@ -5,6 +5,9 @@ namespace ThinQC\Schema\Framework;
 use ThinQC\Schema\Framework\Column\ColumnAbstract;
 
 
+/**
+ * @internal
+ */
 interface TypeSelectInterface
 {
     public function int8(string $columnName): ColumnAbstract;

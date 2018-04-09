@@ -7,6 +7,8 @@ use ThinQC\Schema\Framework\NewKey\CompositeForeignKeyInterface;
 
 /**
  * @property-read int $create
+ *
+ * @internal
  */
 abstract class TableSchemaAbstract
     implements TypeSelectInterface

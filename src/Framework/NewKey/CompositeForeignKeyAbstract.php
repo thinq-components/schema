@@ -21,5 +21,4 @@ abstract class CompositeForeignKeyAbstract
     extends TableSchemaAbstract
     implements CompositeForeignKeyInterface
 {
-
 }

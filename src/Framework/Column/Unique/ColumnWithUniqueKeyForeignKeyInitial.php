@@ -18,5 +18,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class ColumnWithUniqueKeyForeignKeyInitial
     extends TableSchemaAbstract
 {
-
 }

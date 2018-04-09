@@ -15,5 +15,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class ColumnWithUniqueKeyOnDeleteAbstract
     extends TableSchemaAbstract
 {
-
 }

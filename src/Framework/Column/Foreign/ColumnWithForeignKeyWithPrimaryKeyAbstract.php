@@ -13,5 +13,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class ColumnWithForeignKeyWithPrimaryKeyAbstract
     extends TableSchemaAbstract
 {
-
 }

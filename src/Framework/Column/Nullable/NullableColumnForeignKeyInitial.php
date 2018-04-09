@@ -20,5 +20,4 @@ use ThinQC\Schema\Framework\Column\Nullable\Foreign\NullableColumnWithForeignKey
 abstract class NullableColumnForeignKeyInitial
     extends NullableColumnWithForeignKeyAbstract
 {
-
 }

@@ -20,5 +20,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class NullableColumnWithUniqueKeyForeignKeyInitial
     extends TableSchemaAbstract
 {
-
 }

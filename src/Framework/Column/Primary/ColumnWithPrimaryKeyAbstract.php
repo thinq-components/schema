@@ -13,5 +13,4 @@ use ThinQC\Schema\Framework\Column\Unique\ColumnWithUniqueKeyAbstract;
 abstract class ColumnWithPrimaryKeyAbstract
     extends ColumnWithUniqueKeyAbstract
 {
-
 }

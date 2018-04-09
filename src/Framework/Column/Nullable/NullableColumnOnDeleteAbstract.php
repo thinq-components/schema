@@ -16,5 +16,4 @@ use ThinQC\Schema\Framework\Column\Nullable\Foreign\NullableColumnWithForeignKey
 abstract class NullableColumnOnDeleteAbstract
     extends NullableColumnWithForeignKeyAbstract
 {
-
 }

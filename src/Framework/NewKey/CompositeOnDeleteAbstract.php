@@ -16,5 +16,4 @@ use ThinQC\Schema\Framework\TableSchemaAbstract;
 abstract class CompositeOnDeleteAbstract
     extends TableSchemaAbstract
 {
-
 }

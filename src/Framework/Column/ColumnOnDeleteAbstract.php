@@ -15,5 +15,4 @@ use ThinQC\Schema\Framework\Column\Foreign\ColumnWithForeignKeyAbstract;
 abstract class ColumnOnDeleteAbstract
     extends ColumnWithForeignKeyAbstract
 {
-
 }
