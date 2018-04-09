@@ -11,7 +11,7 @@ use ThinQC\Schema\Framework\NewKey\CompositeForeignKeyInterface;
  * @internal
  */
 abstract class TableSchemaAbstract
-    implements TypeSelectInterface
+    extends TypeSelectAbstract
 {
     abstract public function compositePrimaryKey(string ...$columnNames): self;
     abstract public function compositeUniqueKey(string ...$columnNames): self;
